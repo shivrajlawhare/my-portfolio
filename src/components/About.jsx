@@ -6,7 +6,7 @@ const About = () => {
         name="about"
         className='w-full h-full bg-gradient-to-b from-gray-800 to-black text-white'>
         <div
-            className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center  w-full h-full'>
+            className='max-w-screen-lg p-4 pt-10 mx-auto flex flex-col justify-center  w-full h-full'>
             <div className='
                 pb-8 '>
                 <p className=' 
@@ -14,7 +14,7 @@ const About = () => {
                     About
                 </p>
             </div>
-            <p className='text-xl mt-20'>
+            <p className='text-xl mt-2'>
             My name is Shivraj, and I am a dedicated Full Stack Developer with a passion for building web applications using modern technologies. With extensive experience in the industry, I specialize in React, Node.js, and MongoDB. My background includes working on diverse projects that range from small business websites to large-scale web applications, ensuring each project is completed with the highest standards of quality and functionality.
             </p>
 
