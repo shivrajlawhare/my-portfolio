@@ -1,37 +1,49 @@
 import React from 'react'
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import memoriesApp from '../assets/portfolio/memoriesApp.png'
+import smartBrains from '../assets/portfolio/smartBrains.png'
+import robofriends from '../assets/portfolio/robofriends.png'
+import tictactoe from '../assets/portfolio/tictactoe.png'
+import C from '../assets/portfolio/C++.jpg'
+import solidity from '../assets/portfolio/solidity.png'
 
 const Portfolio = () => {
 
     const portfolios = [
         {
             id: 1,
-            src: arrayDestruct,
+            src: memoriesApp,
+            demo: 'https://memories-app2603.netlify.app/',
+            code: 'https://github.com/shivrajlawhare/Memories-App'
         },
         {
             id: 2,
-            src: installNode,
+            src: smartBrains,
+            demo: 'https://github.com/shivrajlawhare/smartbrains',
+            code: 'https://github.com/shivrajlawhare/smartbrains-api'
         },
         {
             id: 3,
-            src: navbar,
+            src: robofriends,
+            demo: 'https://robofriends-nine-steel.vercel.app/',
+            code: 'https://github.com/shivrajlawhare/robofriends'
         },
         {
             id: 4,
-            src: reactParallax,
+            src: tictactoe,
+            demo: 'https://shivrajlawhare.github.io/tictactoe/',
+            code: 'https://github.com/shivrajlawhare/tictactoe'
         },
         {
             id: 5,
-            src: reactSmooth,
+            src: C,
+            demo: 'https://github.com/shivrajlawhare/bus_booking_system',
+            code: 'https://github.com/shivrajlawhare/bus_booking_system'
         },
         {
             id: 6,
-            src: reactWeather,
+            src: solidity,
+            demo: 'https://github.com/shivrajlawhare/Learn-Solidity',
+            code: 'https://github.com/shivrajlawhare/Learn-Solidity'
         },
     ]
 
@@ -50,12 +62,12 @@ const Portfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
                 {
-                    portfolios.map(({id,src}) => (
+                    portfolios.map(({id,src,demo,code}) => (
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
                             <div className='flex items-center justify-center '>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                <a className='flex justify-center items-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' target='_blank' rel="noreferrer" href={demo}>Demo</a>
+                                <a className='flex justify-center items-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' target='_blank' rel="noreferrer" href={code}>Code</a>
                             </div>
                         </div>
                     ))

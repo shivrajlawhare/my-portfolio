@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
         name="about"
-        className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
+        className='w-full h-full bg-gradient-to-b from-gray-800 to-black text-white'>
         <div
             className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center  w-full h-full'>
             <div className='
@@ -15,13 +15,13 @@ const About = () => {
                 </p>
             </div>
             <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis magnam ad vero quas quis iste nesciunt repudiandae ut labore eos harum, maiores nobis rerum ea officiis sint, quasi doloribus provident. Eveniet cum quia magni suscipit vero dolore rerum animi laborum, eligendi consequuntur, praesentium, repellat provident nesciunt hic deserunt sit ad!
+            My name is Shivraj, and I am a dedicated Full Stack Developer with a passion for building web applications using modern technologies. With extensive experience in the industry, I specialize in React, Node.js, and MongoDB. My background includes working on diverse projects that range from small business websites to large-scale web applications, ensuring each project is completed with the highest standards of quality and functionality.
             </p>
 
             <br />
 
             <p className='text-xl'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nulla cum doloremque, eos quas dolore fuga vel libero aliquid. Id qui quidem deleniti tempora expedita libero enim ratione et, quasi facere tenetur optio aperiam, laboriosam inventore voluptate, odio quos totam accusantium! Atque ipsa in tenetur dignissimos nihil perspiciatis vero ab!
+            Beyond my professional life, I am passionate about video editing and content creation. These hobbies allow me to explore my creativity and bring a unique perspective to my work as a developer. I believe in the power of collaboration, integrity, and dedication, and I strive to incorporate these values into my work daily. My goal is to create impactful web applications that not only meet clients' needs but also provide an exceptional user experience, contributing positively to the digital landscape.
             </p>
         </div>
     </div>

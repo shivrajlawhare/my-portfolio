@@ -3,10 +3,12 @@ import html from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import reactImage from '../assets/react.png'
-import nextjs from '../assets/nextjs.png'
-import graphql from '../assets/graphql.png'
+import mongodb from '../assets/mongodb.png'
+import sql from '../assets/sql.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import python from '../assets/python.png'
+
 
 const Experience = () => {
 
@@ -37,9 +39,9 @@ const Experience = () => {
         },
         {
             id: 5,
-            src: nextjs,
+            src: mongodb,
             style: "shadow-white",
-            title: "NextJs"
+            title: "MongoDB"
         },
         {
             id: 6,
@@ -49,15 +51,21 @@ const Experience = () => {
         },
         {
             id: 7,
-            src: graphql,
-            style: "shadow-pink-600",
-            title: "GraphQL"
+            src: sql,
+            style: "shadow-blue-800",
+            title: "SQL"
         },
         {
             id: 8,
             src: github,
             style: "shadow-gray-600",
             title: "GitHub"
+        },
+        {
+            id: 9,
+            src: python,
+            style: "shadow-gray-600",
+            title: "Python"
         },
     ]
 
